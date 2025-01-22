@@ -27,9 +27,15 @@
     - lsd
 
 - how to source control vs code config?
-    - ~~Profiles~~: Not supporting for now.
-        - ~~Using globalStorage/storage.json in the userDataProfiles property all the profiles can be set and view the json files in the profiles folder.~~
-        - ~~Maybe cron script or a make file to add the profile into the storage.json file when running make or even periodically?~~
+    - Profiles:
+        - profiles sync script steps:
+            - make sure profile folder name and location is added to storage.json
+            - move any keyboard shortcuts, settings, etc to each profile folder
+            - run loop through config file and install each extension extension to each profile
+            - Find a way to run the script that will syncronize copy and keyboard shortcuts, settings, etc back to profiles config folder
+            - run a sync for copying any extensions to the profile config
+            - possibly use the settings.json with Custom Command for running the repo sync everytime it is loaded.
+            
     - Keyboard Shortcuts
         - Find some of the ones I have at work and add those here.
     - Extensions:
