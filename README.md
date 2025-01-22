@@ -24,6 +24,7 @@
     - vim (apt)
     - wireshark (apt)
     - vlc (apt)
+    - lsd
 
 - how to source control vs code config?
     - ~~Profiles~~: Not supporting for now.
@@ -39,3 +40,4 @@
     - ~~syntax highlighting~~
     - ~~ls folder icons~~
     - Better theme
+    - lsd config
