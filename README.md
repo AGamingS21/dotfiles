@@ -32,6 +32,8 @@
         - ~~Maybe cron script or a make file to add the profile into the storage.json file when running make or even periodically?~~
     - Keyboard Shortcuts
         - Find some of the ones I have at work and add those here.
+    - Extensions:
+        - need to run --install from extension file
     - ~~Settings~~
 - hyprland
 - zsh
