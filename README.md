@@ -35,6 +35,7 @@
             - Find a way to run the script that will syncronize copy and keyboard shortcuts, settings, etc back to profiles config folder
             - run a sync for copying any extensions to the profile config
             - possibly use the settings.json with Custom Command for running the repo sync everytime it is loaded.
+            - find and load in any profiles created outside personalized config files
             
     - Keyboard Shortcuts
         - Find some of the ones I have at work and add those here.
@@ -42,6 +43,8 @@
         - need to run --install from extension file
     - ~~Settings~~
 - hyprland
+- brave-browser 
+    - get bookmarks file into repo
 - zsh
     - ~~auto completion~~
     - ~~auto suggestions~~
