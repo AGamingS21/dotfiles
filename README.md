@@ -56,3 +56,6 @@
         - spaceship
         - powerlevel10k
     - lsd config
+- Git: 
+    - Only track checked in files instead of git ignore?
+    - Is it possible to only show checked in files in vscode?
