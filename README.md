@@ -26,11 +26,16 @@
     - vlc (apt)
 
 - how to source control vs code config?
-    - Profiles:
-        - Using globalStorage/storage.json in the userDataProfiles property all the profiles can be set and view the json files in the profiles folder.
-        - Maybe cron script or a make file to add the profile into the storage.json file when running make or even periodically?
+    - ~~Profiles~~: Not supporting for now.
+        - ~~Using globalStorage/storage.json in the userDataProfiles property all the profiles can be set and view the json files in the profiles folder.~~
+        - ~~Maybe cron script or a make file to add the profile into the storage.json file when running make or even periodically?~~
     - Keyboard Shortcuts
         - Find some of the ones I have at work and add those here.
     - ~~Settings~~
 - hyprland
 - zsh
+    - ~~auto completion~~
+    - ~~auto suggestions~~
+    - ~~syntax highlighting~~
+    - ~~ls folder icons~~
+    - Better theme
