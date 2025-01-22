@@ -51,5 +51,8 @@
     - ~~auto suggestions~~
     - ~~syntax highlighting~~
     - ~~ls folder icons~~
+    - git extension
     - Better theme
+        - spaceship
+        - powerlevel10k
     - lsd config
