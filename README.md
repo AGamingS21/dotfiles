@@ -39,6 +39,7 @@
             
     - Keyboard Shortcuts
         - Find some of the ones I have at work and add those here.
+        - try and make some shortcuts for git push, pull, commit, stage, etc.
     - Extensions:
         - need to run --install from extension file
     - ~~Settings~~
