@@ -8,10 +8,26 @@
 
 # it does work for importing profiles via cli while vscode is off.
 
-# Example of creating profiles
+# Example of creating profiles. Or just add the profile to the userDefaultProfiles array in storage.json
 code --profile data
 
 # Example of how to install extension to a specific profile. Will need to figure out where I can store this file.
 code --install-extension ms-dotnettools.csharp --profile data
+
+
+# This is the array that will need to be created for vscode folders to be created before launching code
+# "userDataProfiles": [
+#         {
+#             "location": "data",
+#             "name": "data",
+#             "useDefaultFlags": {
+#                 "keybindings": true
+#             }
+#         },
+#         {
+#             "location": "ce120a1",
+#             "name": "dotnet"
+#         }
+#     ]
 
 
