@@ -50,7 +50,9 @@ sudo apt install -y \
     docker-ce-cli \
     containerd.io \
     docker-buildx-plugin \
-    docker-compose-plugin
+    docker-compose-plugin \
+    nano \
+    git
     
 
 # Todo:
@@ -72,7 +74,7 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 ## software in hyprland for visual way of reading?
 
 # Install Flatpaks
-flatpak install discord
+flatpak install com.discordapp.Discord 
 flatpak install bitwarden
 flatpak install localsend
 

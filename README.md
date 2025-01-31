@@ -25,6 +25,8 @@
     - ~~wireshark (apt)~~
     - ~~vlc (apt)~~
     - ~~lsd~~
+    - ~~git~~
+    - ~~nano~~
 
 - vsconfig
    - ~~store all profiles in folder~~
@@ -38,9 +40,27 @@
     - Better theme
         - ~~oh my posh~~
     - lsd config
+
+- firewall:
+    - ufw
+
 - Git: 
     - ~~Only track checked in files instead of git ignore?~~
     - ~~Is it possible to only show checked in files in vscode?~~
+
+- docs:
+    - improve documentation
+    - how to add a new file to the repo?
+    - how to manage vscode?
+    - how to add new oh-my-posh themes
+    - etc.
+
+
+# Next Steps:
+- Make sure I back up everything needed onto network drive that is needed
+- prepare usb media
+- install 
+
 
 ## Roadmap
 - brave-browser 
