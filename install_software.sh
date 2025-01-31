@@ -80,3 +80,5 @@ flatpak install localsend
 
 # dotnet configs
 dotnet tool install sqlpackage
+
+#Private key
