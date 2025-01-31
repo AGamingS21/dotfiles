@@ -26,24 +26,10 @@
     - vlc (apt)
     - lsd
 
-- how to source control vs code config?
-    - Profiles:
-        - profiles sync script steps:
-            - make sure profile folder name and location is added to storage.json
-            - move any keyboard shortcuts, settings, etc to each profile folder
-            - run loop through config file and install each extension extension to each profile
-            - Find a way to run the script that will syncronize copy and keyboard shortcuts, settings, etc back to profiles config folder
-            - run a sync for copying any extensions to the profile config
-            - possibly use the settings.json with Custom Command for running the repo sync everytime it is loaded.
-            - find and load in any profiles created outside personalized config files
-            
-    - Keyboard Shortcuts
-        - Find some of the ones I have at work and add those here.
-        - try and make some shortcuts for git push, pull, commit, stage, etc.
-    - Extensions:
-        - need to run --install from extension file
-    - ~~Settings~~
+- vscode
+    - use vsconfig
 - hyprland
+    - extensions?
 - brave-browser 
     - get bookmarks file into repo
 - zsh
