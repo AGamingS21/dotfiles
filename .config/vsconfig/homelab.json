@@ -21,6 +21,7 @@
         "powershell.promptToUpdatePowerShell": false,
         "azureResourceGroups.selectedSubscriptions": [],
         "azureResourceGroups.groupBy": "resourceGroup",
+        "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
         "extensions.ignoreRecommendations": true
     },
     "Keybindings":

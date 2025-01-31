@@ -6,7 +6,11 @@ prompt adam1
 
 setopt histignorealldups sharehistory
 
+export DOTNET_ROOT=/usr/share/dotnet
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
 
+#eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/night-owl.omp.json)"
+eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/paradox.omp.json)"
 
 # Use emacs keybindings even if our EDITOR is set to vi
 bindkey -e

@@ -22,6 +22,7 @@
         "azureResourceGroups.selectedSubscriptions": [],
         "azureResourceGroups.groupBy": "resourceGroup",
         "mssql.enableRichExperiences": true,
+        "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
         "mssql.connections": [
             {
                 "authenticationType": "SqlLogin",
