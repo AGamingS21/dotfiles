@@ -99,7 +99,10 @@
 - script everything
 - ~~adjust window size with mouse~~
 - ~~close/minimize tabs with mouse?~~
-- hyprshot
+- ~~Screenshot~~
+    - ~~slurp~~
+    - ~~grim~~
+    - ~~hyprshot not available on debian from apt~~
 - hyprlock
 - hypridle
 - log into hyprland on launch
@@ -108,8 +111,9 @@
     - cliphist
 
 - Refactor:
-    - wlogout box style
-        - equal sized boxes on top and bottom
+    - wlogout 
+        - box style equal sized boxes on top and bottom
+        - log out function crashes sddm
     - swaync-client style
     - update manager
         - create or find one for debian
@@ -117,6 +121,8 @@
     - waybar 
         - style
         - groupings
+    - wlogout
+
 
 
 

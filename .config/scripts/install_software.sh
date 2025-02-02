@@ -80,7 +80,9 @@ sudo apt install -y \
     blueman-manager \
     hyprpaper \
     sddm \
-    kitty
+    kitty \
+    slurp \
+    grim
     
 
 # Todo:
