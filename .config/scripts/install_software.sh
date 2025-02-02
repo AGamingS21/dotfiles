@@ -82,7 +82,15 @@ sudo apt install -y \
     sddm \
     kitty \
     slurp \
-    grim
+    grim \
+    swaylock \
+    swayidle \
+    thunar \
+    gvfs-backends \
+    smbclient \
+    samba \
+    gnome-themes-extra \
+    cifs-utils
     
 
 # Todo:

@@ -22,7 +22,13 @@
         "azureResourceGroups.selectedSubscriptions": [],
         "azureResourceGroups.groupBy": "resourceGroup",
         "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
-        "extensions.ignoreRecommendations": true
+        "extensions.ignoreRecommendations": true,
+        "explorer.confirmDelete": true,
+        "editor.fontFamily": "monospace, FontAwesome, Roboto, Helvetica, Arial, sans-serif",
+        "workbench.preferredHighContrastLightColorTheme": "Visual Studio Dark",
+        "workbench.preferredLightColorTheme": "Visual Studio Dark",
+        "window.dialogStyle": "custom",
+        "window.titleBarStyle": "custom"
     },
     "Keybindings":
     // Place your key bindings in this file to override the defaults

@@ -86,16 +86,21 @@
     - ~~get icons in vscode to work~~
 - ~~hyprpaper~~
 - install the rest of the software
-- make default colour to dark mode
+- ~~make default colour to dark mode~~
 - ~~How to only show one monitor~~
 - make thunderbolt work with mouse, keyboard and monitor
-- connect to smb share
+- ~~connect to smb share~~
+    - ~~thunar~~
 - bottom of page dock
-    - ngw-docker
-- minimize windows
-- use mouse to close tabs
-- alt tab between windows instead
-    - use rofi
+    - ngw-dock-hyprland
+        - build from source or use linux or fedora
+- ~~minimize windows~~
+    - ~~for now will try moving tab to an new workspace~~
+- ~~use mouse to close tabs~~
+    - ~~using super mouse middle button~~
+- ~~alt tab between windows instead~~
+    - ~~use rofi~~
+    - ~~what able to SUPER + N and CTL + N then Enter.~~
 - script everything
 - ~~adjust window size with mouse~~
 - ~~close/minimize tabs with mouse?~~
@@ -103,10 +108,12 @@
     - ~~slurp~~
     - ~~grim~~
     - ~~hyprshot not available on debian from apt~~
-- hyprlock
-- hypridle
-- log into hyprland on launch
-- launch on start
+- lock computer
+    - ~~hyprlock~~
+        - ~~not available in debian~~
+    - ~~swaylock and swayidle~~
+- ~~Desktop Manager~~
+    - ~~sddm~~
 - clipboard manager
     - cliphist
 
@@ -122,6 +129,14 @@
         - style
         - groupings
     - wlogout
+    - swaylock
+        - no clock or dates.
+        - would need swaylock effects but not in apt
+    - window switching to make it like alt tabing on windows
+    - Monitors
+        - software to define layout and which ones on and off
+    - thunar
+        - wont scan for smb shares have to put in the url to it.
 
 
 
