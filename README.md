@@ -56,12 +56,6 @@
     - etc.
 
 
-# Next Steps:
-- Make sure I back up everything needed onto network drive that is needed
-- prepare usb media
-- install 
-
-
 
 ## Hyprland to do:
 - ~~audio~~
@@ -91,9 +85,9 @@
 - make thunderbolt work with mouse, keyboard and monitor
 - ~~connect to smb share~~
     - ~~thunar~~
-- bottom of page dock
-    - ngw-dock-hyprland
-        - build from source or use linux or fedora
+- ~~bottom of page dock~~
+    - ~~ngw-dock-hyprland~~
+        - ~~build from source or use linux or fedora~~
 - ~~minimize windows~~
     - ~~for now will try moving tab to an new workspace~~
 - ~~use mouse to close tabs~~
@@ -108,14 +102,14 @@
     - ~~slurp~~
     - ~~grim~~
     - ~~hyprshot not available on debian from apt~~
-- lock computer
+- ~~lock computer~~
     - ~~hyprlock~~
         - ~~not available in debian~~
     - ~~swaylock and swayidle~~
 - ~~Desktop Manager~~
     - ~~sddm~~
-- clipboard manager
-    - cliphist
+- ~~clipboard manager~~
+    - ~~cliphist~~
 
 - Refactor:
     - wlogout 
@@ -128,7 +122,6 @@
     - waybar 
         - style
         - groupings
-    - wlogout
     - swaylock
         - no clock or dates.
         - would need swaylock effects but not in apt
@@ -137,6 +130,7 @@
         - software to define layout and which ones on and off
     - thunar
         - wont scan for smb shares have to put in the url to it.
+    - add a dock
 
 
 

@@ -90,7 +90,8 @@ sudo apt install -y \
     smbclient \
     samba \
     gnome-themes-extra \
-    cifs-utils
+    cifs-utils \
+    cliphist
     
 
 # Todo:
