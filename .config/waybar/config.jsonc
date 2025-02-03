@@ -11,9 +11,9 @@
     "include": ["~/.config/waybar/modules.jsonc"],
     "modules-left": [
         "custom/appmenu",
-        "wlr/taskbar",
-        "hyprland/window",
-        "custom/settings"
+        "wlr/taskbar"
+        // "hyprland/window",
+        //"custom/settings"
         // "sway/workspaces",
         // "sway/mode",
         // "sway/scratchpad",
@@ -43,8 +43,8 @@
         "network",
         "pulseaudio",
         "battery",
-        "clock",
-        "custom/exit"
+        "custom/exit",
+        "clock"
      ]
      
 }

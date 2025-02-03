@@ -30,16 +30,14 @@
 
 - vsconfig
    - ~~store all profiles in folder~~
-- hyprland
 - zsh
     - ~~auto completion~~
     - ~~auto suggestions~~
     - ~~syntax highlighting~~
     - ~~ls folder icons~~
     - ~~git extension~~
-    - Better theme
+    - ~~Better theme~~
         - ~~oh my posh~~
-    - lsd config
 
 - firewall:
     - ufw
@@ -57,7 +55,7 @@
 
 
 
-## Hyprland to do:
+- hyprland
 - ~~audio~~
     - ~~alsa-utils~~
 - waybar
@@ -79,7 +77,7 @@
     - ~~better power managment ~~
     - ~~get icons in vscode to work~~
 - ~~hyprpaper~~
-- install the rest of the software
+- ~~install the rest of the software~~
 - ~~make default colour to dark mode~~
 - ~~How to only show one monitor~~
 - make thunderbolt work with mouse, keyboard and monitor
@@ -111,7 +109,11 @@
 - ~~clipboard manager~~
     - ~~cliphist~~
 
-- Refactor:
+## Roadmap
+- brave-browser 
+    - get bookmarks file into repo
+    - automate settings sync?
+- hyprland
     - wlogout 
         - box style equal sized boxes on top and bottom
         - log out function crashes sddm
@@ -120,8 +122,10 @@
         - create or find one for debian
         - add to waybar
     - waybar 
-        - style
-        - groupings
+        - ~~style~~
+        - ~~groupings~~
+        - dynamic themes
+        - height
     - swaylock
         - no clock or dates.
         - would need swaylock effects but not in apt
@@ -131,14 +135,5 @@
     - thunar
         - wont scan for smb shares have to put in the url to it.
     - add a dock
-
-
-
-
-
-
-## Roadmap
-- brave-browser 
-    - get bookmarks file into repo
-    - Add to roadmap
-    - automate settings sync?
+- zsh
+    - lsd config
