@@ -119,7 +119,8 @@ sudo apt install -y \
     pulseaudio \
     pip3 \
     pipx \
-    imagemagick
+    imagemagick \
+    network-manager-gnome
     
 
 # Todo:

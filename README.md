@@ -93,7 +93,7 @@
 - ~~alt tab between windows instead~~
     - ~~use rofi~~
     - ~~what able to SUPER + N and CTL + N then Enter.~~
-- script everything
+- ~~script everything~~
 - ~~adjust window size with mouse~~
 - ~~close/minimize tabs with mouse?~~
 - ~~Screenshot~~
@@ -124,8 +124,7 @@
     - waybar 
         - ~~style~~
         - ~~groupings~~
-        - dynamic themes
-        - height
+        - dynamic themes and ability to switch quickly
     - swaylock
         - no clock or dates.
         - would need swaylock effects but not in apt
@@ -137,3 +136,5 @@
     - add a dock
 - zsh
     - lsd config
+- rofi
+    - launch flatpaks
