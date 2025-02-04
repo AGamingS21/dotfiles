@@ -53,3 +53,11 @@ alias ls="ls --color=auto"
 # Extensions
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Add .local to the path
+export PATH="${PATH}:/home/$(whoami)/.local/bin"
+
+# Add flatpaks to search dir
+# export PATH="${PATH}:/home/$(whoami)/.local/share/flatpak/exports/share"
+# export PATH="${PATH}:/var/lib/flatpak/exports/share"
+# export XDG_DATA_DIRS="${XDG_DATA_DIRS}:/var/lib/flatpak/exports/share/:~/.local/share/flatpak/exports/share/"

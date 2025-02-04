@@ -117,7 +117,9 @@
     - wlogout 
         - box style equal sized boxes on top and bottom
         - log out function crashes sddm
-    - swaync-client style
+    - swaync 
+        - client style
+        - confirm it is working
     - update manager
         - create or find one for debian
         - add to waybar
