@@ -23,12 +23,6 @@
         "azureResourceGroups.groupBy": "resourceGroup",
         "mssql.enableRichExperiences": true,
         "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
-        "explorer.confirmDelete": true,
-        "editor.fontFamily": "monospace, FontAwesome, Roboto, Helvetica, Arial, sans-serif",
-        "workbench.preferredHighContrastLightColorTheme": "Visual Studio Dark",
-        "workbench.preferredLightColorTheme": "Visual Studio Dark",
-        "window.dialogStyle": "custom",
-        "window.titleBarStyle": "custom",
         "mssql.connections": [
             {
                 "authenticationType": "SqlLogin",
@@ -77,31 +71,21 @@
         }
     ],
     "Extensions": [
-        "ms-azuretools.vscode-azureresourcegroups",
-        "ms-vscode.azure-account",
         "ms-dotnettools.csharp",
         "ms-dotnettools.vscode-dotnet-runtime",
         "ms-dotnettools.csdevkit",
         "rangav.vscode-thunder-client",
         "tamasfe.even-better-toml",
-        "hashicorp.terraform",
-        "ms-mssql.sql-database-projects-vscode",
-        "ms-mssql.mssql",
         "ms-vscode-remote.remote-ssh",
         "ms-azuretools.vscode-bicep",
-        "ms-vscode-remote.remote-containers",
-        "ms-azure-devops.azure-pipelines",
         "bierner.markdown-mermaid",
         "ms-vscode.powershell",
         "hashicorp.hcl",
         "ms-vscode-remote.remote-ssh-edit",
         "ms-azuretools.vscode-docker",
-        "github.vscode-github-actions",
         "ms-vscode.makefile-tools",
         "ms-dotnettools.blazorwasm-companion",
         "ms-dotnettools.vscode-dotnet-pack",
-        "ms-vscode.remote-explorer",
-        "ms-mssql.data-workspace-vscode",
-        "ms-mssql.sql-bindings-vscode"
+        "ms-vscode.remote-explorer"
     ]
 }
