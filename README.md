@@ -116,7 +116,10 @@
 - network manager   
     - ~~turned off managing network interface from /etc/network/interfaces. ~~
     - how to make system tray menu show when left clicking on network icon.
+    - icon needs to be white
 - hyprland
+    - ~~make trackpad scrolling go the other way.~~
+        - ~~hyprland.conf config for track pad natural scroll~~
     - wlogout 
         - box style equal sized boxes on top and bottom
         - log out function crashes sddm
@@ -145,3 +148,6 @@
     - lsd config
 - rofi
     - launch flatpaks
+
+- printing
+    - get printer working
