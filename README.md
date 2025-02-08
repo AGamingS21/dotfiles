@@ -113,10 +113,14 @@
 - brave-browser 
     - get bookmarks file into repo
     - automate settings sync?
+- network manager   
+    - ~~turned off managing network interface from /etc/network/interfaces. ~~
+    - how to make system tray menu show when left clicking on network icon.
 - hyprland
     - wlogout 
         - box style equal sized boxes on top and bottom
         - log out function crashes sddm
+    - closinng laptop lid pc won't turn back on.
     - swaync 
         - client style
         - confirm it is working
@@ -130,6 +134,7 @@
     - swaylock
         - no clock or dates.
         - would need swaylock effects but not in apt
+        - swaylock make sure not to put to sleep while charging.
     - window switching to make it like alt tabing on windows
     - Monitors
         - software to define layout and which ones on and off
