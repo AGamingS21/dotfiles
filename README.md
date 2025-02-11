@@ -115,8 +115,8 @@
     - automate settings sync?
 - network manager   
     - ~~turned off managing network interface from /etc/network/interfaces. ~~
-    - how to make system tray menu show when left clicking on network icon.
-    - icon needs to be white
+    - ~~how to make system tray menu show when left clicking on network icon.~~
+    - ~~icon needs to be white~~
 - hyprland
     - ~~make trackpad scrolling go the other way.~~
         - ~~hyprland.conf config for track pad natural scroll~~
@@ -127,6 +127,7 @@
     - swaync 
         - client style
         - confirm it is working
+            - discord notificaitons work?
     - update manager
         - create or find one for debian
         - add to waybar
@@ -134,6 +135,7 @@
         - ~~style~~
         - ~~groupings~~
         - dynamic themes and ability to switch quickly
+        - tray spacing
     - swaylock
         - no clock or dates.
         - would need swaylock effects but not in apt
@@ -147,7 +149,21 @@
 - zsh
     - lsd config
 - rofi
-    - launch flatpaks
+    - ~~launch flatpaks~~
+        - ~~had to add items to the XDG_DATA_DIRS var.~~
+
+- gtk
+    - find theme/icons for all apps that I want
+    - figure out how to get the .config/gtk-xxx to work when logging in 
+
+- qt6ct
+    - look into which apps use this and how to streamline theming
+
+- clipboard history
+    - not copying to my clip board when seleting
 
 - printing
     - get printer working
+
+- sddm
+    - design

@@ -40,7 +40,7 @@
         "tray",
         "custom/notification",
         //"bluetooth",
-        "network",
+        //"network",
         "pulseaudio",
         "battery",
         "custom/exit",

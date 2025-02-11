@@ -339,7 +339,7 @@
       },
       "format": "{icon}",
       //"format": "{icon} {capacity}%",
-      "format-charging": "{icon}",
+      "format-charging": "",
       //"format-charging": "",
       //"format-charging": "  {capacity}%",
       "format-plugged": "",
