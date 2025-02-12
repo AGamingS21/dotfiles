@@ -121,8 +121,10 @@
     - ~~make trackpad scrolling go the other way.~~
         - ~~hyprland.conf config for track pad natural scroll~~
     - wlogout 
-        - box style equal sized boxes on top and bottom
-        - log out function crashes sddm
+        - ~~box style equal sized boxes on top and bottom~~
+            - ~~buttons per row was 5 and not 3~~
+        - ~~log out function crashes sddm~~
+            - ~~had to rename config file to layout~~
     - closinng laptop lid pc won't turn back on.
     - swaync 
         - client style
