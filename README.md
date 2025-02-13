@@ -138,6 +138,7 @@
         - ~~groupings~~
         - dynamic themes and ability to switch quickly
         - tray spacing
+        - mail shortcut for evolution
     - swaylock
         - no clock or dates.
         - would need swaylock effects but not in apt

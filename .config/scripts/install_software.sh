@@ -126,7 +126,8 @@ sudo apt install -y \
     imagemagick \
     network-manager-gnome \
     nwg-look \
-    papirus-icon-theme
+    papirus-icon-theme \
+    evolution
     
 
 # Todo:
@@ -151,7 +152,7 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 flatpak install com.discordapp.Discord 
 flatpak install flathub com.bitwarden.desktop
 flatpak install flathub org.localsend.localsend_app
-flatpak install flathub org.mozilla.Thunderbird
+# flatpak install flathub org.mozilla.Thunderbird
 
 
 

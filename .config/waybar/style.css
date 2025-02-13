@@ -51,6 +51,11 @@ window#waybar {
     transition-duration: .5s;
 }
 
+
+window#waybar.hidden {
+    opacity: 1;
+}
+
 /* -----------------------------------------------------
  * Workspaces 
  * ----------------------------------------------------- */
@@ -238,6 +243,15 @@ window#waybar.empty #window {
     padding-right: 20px;
 }
 
+#custom-mail {
+    font-size: 16px;
+    color: @textcolor2;
+    border-radius: 15px;
+    padding: 2px 0px 0px 0px;
+    margin: 0px 0px 3px 0px;
+    opacity:0.8;
+}
+
 #custom-chatgpt {
     margin-right: 16px;
     background-image: url("../assets/openai.svg");
@@ -277,7 +291,7 @@ window#waybar.empty #window {
     font-size: 13px;
     color: @blacktest;
     border-radius: 15px;
-    padding: 5px 10px 4px 10px;
+    padding: 5px 10px 4px 0px;
     margin: 7px 10px 10px 0px;
     opacity:0.8;
     /* border:3px solid @blacktest; */
@@ -486,11 +500,18 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 #tray {
-    padding: 0px 15px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
+
+
 #tray > .passive {
-    -gtk-icon-effect: dim;
+    -gtk-icon-effect: highlight;
+}
+
+#tray > .active {
+    -gtk-icon-effect: highlight;
 }
 
 #tray > .needs-attention {
