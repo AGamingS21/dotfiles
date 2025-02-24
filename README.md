@@ -80,7 +80,6 @@
 - ~~install the rest of the software~~
 - ~~make default colour to dark mode~~
 - ~~How to only show one monitor~~
-- make thunderbolt work with mouse, keyboard and monitor
 - ~~connect to smb share~~
     - ~~thunar~~
 - ~~bottom of page dock~~
@@ -146,19 +145,21 @@
         - wont scan for smb shares have to put in the url to it.
         - switch to nautilus once on arch
     - add a dock
+        - ngw-dock-hyprland. Will need to do this when on arch
 - zsh
     - lsd config
 - ~~rofi~~
     - ~~launch flatpaks~~
         - ~~had to add items to the XDG_DATA_DIRS var.~~
+- make thunderbolt work with mouse, keyboard and monitor
 
 - gtk
     - do this once on arch. nwg-look not working
     - find theme/icons for all apps that I want
     - figure out how to get the .config/gtk-xxx to work when logging in 
 
-- clipboard history
-    - not copying to my clip board when seleting
+- ~~clipboard history~~
+    - ~~not copying to my clip board when seleting~~
 
 - printing
     - get printer working
