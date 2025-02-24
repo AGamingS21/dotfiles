@@ -11,11 +11,10 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 ## VSCode
-sudo apt-get install wget gpg
-wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
 sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
 echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" |sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
-rm -f packages.microsoft.gpg
+sudo rm -f packages.microsoft.gpg
 
 ## Hashicorp
 wget -O- https://apt.releases.hashicorp.com/gpg | \
@@ -61,6 +60,10 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] http
 ## Papirus Themes
 sudo sh -c "echo 'deb http://ppa.launchpad.net/papirus/papirus/ubuntu jammy main' > /etc/apt/sources.list.d/papirus-ppa.list"
 sudo wget -qO /etc/apt/trusted.gpg.d/papirus-ppa.asc 'https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x9461999446FAF0DF770BFC9AE58A9D36647CAE7F'
+
+## dbeaver
+sudo wget -O /usr/share/keyrings/dbeaver.gpg.key https://dbeaver.io/debs/dbeaver.gpg.key
+echo "deb [signed-by=/usr/share/keyrings/dbeaver.gpg.key] https://dbeaver.io/debs/dbeaver-ce /" | sudo tee /etc/apt/sources.list.d/dbeaver.list
 
 # Install Apt software
 sudo apt-get update && \
@@ -127,8 +130,8 @@ sudo apt install -y \
     network-manager-gnome \
     nwg-look \
     papirus-icon-theme \
-    evolution
-    
+    evolution \
+    dbeaver-ce    
 
 # Todo:
 # Customize lsd via config file

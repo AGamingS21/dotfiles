@@ -38,7 +38,7 @@
     - ~~git extension~~
     - ~~Better theme~~
         - ~~oh my posh~~
-
+    - how to get auto suggestion working in vscode
 - firewall:
     - ufw
 
@@ -127,9 +127,9 @@
             - ~~had to rename config file to layout~~
     - closinng laptop lid pc won't turn back on.
     - swaync 
-        - client style
-        - confirm it is working
-            - discord notificaitons work?
+        - ~~client style~~
+        - ~~confirm it is working~~
+            -  ~~would need to script this: discord notificaitons work?~~
     - update manager
         - create or find one for debian
         - add to waybar
@@ -138,29 +138,24 @@
         - ~~groupings~~
         - dynamic themes and ability to switch quickly
         - tray spacing
-        - mail shortcut for evolution
-    - swaylock
-        - no clock or dates.
-        - would need swaylock effects but not in apt
-        - swaylock make sure not to put to sleep while charging.
-    - window switching to make it like alt tabing on windows
+        - ~~mail shortcut for evolution~~
     - Monitors
-        - software to define layout and which ones on and off
+        - create script to switch based on power configureation
+        
     - thunar
         - wont scan for smb shares have to put in the url to it.
+        - switch to nautilus once on arch
     - add a dock
 - zsh
     - lsd config
-- rofi
+- ~~rofi~~
     - ~~launch flatpaks~~
         - ~~had to add items to the XDG_DATA_DIRS var.~~
 
 - gtk
+    - do this once on arch. nwg-look not working
     - find theme/icons for all apps that I want
     - figure out how to get the .config/gtk-xxx to work when logging in 
-
-- qt6ct
-    - look into which apps use this and how to streamline theming
 
 - clipboard history
     - not copying to my clip board when seleting
@@ -168,5 +163,5 @@
 - printing
     - get printer working
 
-- sddm
-    - design
+- gnome
+    - how to theme based on dotfiles

@@ -130,7 +130,8 @@
   // Mail
   "custom/mail": {
     "format": "",
-    "on-click": "evolution",
+    //"on-click": "evolution",
+    "on-click": "brave-browser https://outlook.live.com/mail", 
     "tooltip-format": "Mail"
   },
 
