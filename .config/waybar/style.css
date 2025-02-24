@@ -102,14 +102,14 @@ window#waybar.hidden {
 
 tooltip {
     border-radius: 16px;
-    background-color: @backgroundlight;
-    opacity:0.9;
+    background-color: @backgrounddark;
+    opacity:1;
     padding:20px;
     margin:0px;
 }
 
 tooltip label {
-    color: @textcolor2;
+    color: @blacktest;
 }
 
 /* -----------------------------------------------------
