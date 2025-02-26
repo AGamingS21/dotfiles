@@ -131,7 +131,8 @@ sudo apt install -y \
     nwg-look \
     papirus-icon-theme \
     evolution \
-    dbeaver-ce    
+    dbeaver-ce \
+    evince
 
 # Todo:
 # Customize lsd via config file

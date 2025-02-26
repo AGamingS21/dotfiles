@@ -161,8 +161,8 @@
 - ~~clipboard history~~
     - ~~not copying to my clip board when seleting~~
 
-- printing
-    - get printer working
+- ~~printing~~
+    - ~~use evince~~
 
 - gnome
     - how to theme based on dotfiles
