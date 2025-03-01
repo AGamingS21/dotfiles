@@ -153,16 +153,41 @@
         - ~~had to add items to the XDG_DATA_DIRS var.~~
 - make thunderbolt work with mouse, keyboard and monitor
 
-- gtk
-    - do this once on arch. nwg-look not working
-    - find theme/icons for all apps that I want
-    - figure out how to get the .config/gtk-xxx to work when logging in 
-
 - ~~clipboard history~~
     - ~~not copying to my clip board when seleting~~
 
 - ~~printing~~
     - ~~use evince~~
+- ~~system tray not showing with nmapplet?~~
+    - ~~system tray was installed just had to install network-manager-applet~~
+- ~~fonts in waybar are messed up on waybar~~
+    - ~~find font that works for me~~
+- ~~find font I want across all apps~~
+    - ~~will try MesloLGLNerdFont-Regular~~
+    - ~~add font across all systems~~
+- ~~wlogout style~~
 
-- gnome
-    - how to theme based on dotfiles
+- fix swaync style
+
+- create list of software and where it was installed from: pacman vs yay vs flatpak
+
+- copy and paste only working with ctrl+shift+v can it be ctrl+v?
+
+- ~~configure vsconfig~~
+- ~~.zprofile export vars not adding to path~~
+    - ~~added to .zsh for now~~S
+
+- figure out what theming I want across all apps
+
+- move to: 
+    - hgw-dock-hyprland
+    - ~~hyprlock~~
+    - ~~hypridle~~
+    - ~~hyprshot~~
+
+- gtk
+    - how to theme based on dotfiles using ngw-look
+
+- look into 
+    - ags one day https://github.com/Aylur/ags
+    - wofi vs rofi

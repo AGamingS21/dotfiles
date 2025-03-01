@@ -51,8 +51,14 @@ alias dc='docker compose'
 alias ls="ls --color=auto"
 
 # Extensions
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+
+# Paths
+export PATH="${PATH}:/home/$(whoami)/.local/bin"
+export XDG_DATA_DIRS="${PATH}:/usr/local/share/:/usr/share/:/var/lib/flatpak/exports/share"
+export XDG_CONFIG_HOME="/home/$(whoami)/.config"
 
 # Add .local to the path
 #export PATH="${PATH}:/home/$(whoami)/.local/bin"
