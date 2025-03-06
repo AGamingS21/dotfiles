@@ -141,9 +141,6 @@
     - Monitors
         - create script to switch based on power configureation
         
-    - thunar
-        - wont scan for smb shares have to put in the url to it.
-        - switch to nautilus once on arch
     - add a dock
         - ngw-dock-hyprland. Will need to do this when on arch
 - zsh
@@ -172,19 +169,20 @@
 - ~~nm-applet icons~~
 - ~~add percentage for power~~
 
-- overhaul waybar style and spacing
+- ~~overhaul waybar style and spacing~~
 
 - create list of software and where it was installed from: pacman vs yay vs flatpak
 
-- try and get cattpucine mocha working with mauve as main
+- ~~try and get cattpucine mocha working with mauve as main~~
 
 - ~~copy and paste only working with ctrl+shift+v can it be ctrl+v?~~
     - ~~fixed by installing cliphist~~
 - ~~configure vsconfig~~
 - ~~.zprofile export vars not adding to path~~
-    - ~~added to .zsh for now~~S
+    - ~~added to .zsh for now~~
 
-- figure out what theming I want across all apps
+- ~~figure out what theming I want across all apps~~
+    - ~~catppucine~~
 
 - make sure bluetooth works
 
@@ -196,8 +194,8 @@
     - ~~hypridle~~
     - ~~hyprshot~~
 
-- gtk
-    - how to theme based on dotfiles using ngw-look
+- ~~gtk~~
+    - ~~how to theme based on dotfiles using ngw-look~~
 
 - look into 
     - ags one day https://github.com/Aylur/ags

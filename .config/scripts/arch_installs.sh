@@ -44,6 +44,8 @@ blueman
 docker
 wireshark-qt
 nwg-dock-hyprland
+gnome-keyring
+seahorse
 
 # yay
 wlogout
@@ -62,9 +64,6 @@ catppuccin-gtk-theme-mocha
 # Make zshell the default Shell
 echo $(which zsh) | sudo tee -a /etc/shells
 chsh -s $(which zsh)
-
-# oh-my-posh
-oh-my-posh font install Meslo
 
 
 # Flatpak config
@@ -89,9 +88,6 @@ vsconfig configure
 
 #Private key
 
-# Audio
-sudo alsactl init
-sudo alsamixer
 
 # Python packages
 pipx install pywall
