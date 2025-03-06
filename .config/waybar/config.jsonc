@@ -10,8 +10,8 @@
     // Load Modules
     "include": ["~/.config/waybar/modules.jsonc"],
     "modules-left": [
-        "custom/appmenu"
-        // "wlr/taskbar",
+        "custom/appmenu",
+        "wlr/taskbar"
         // "custom/mail"
         // "hyprland/window",
         //"custom/settings"

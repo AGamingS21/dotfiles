@@ -194,7 +194,7 @@
 - theme qt apps
 
 - move to: 
-    - nwg-dock-hyprland
+    - ~~nwg-dock-hyprland~~
     - ~~hyprlock~~
     - ~~hypridle~~
     - ~~hyprshot~~

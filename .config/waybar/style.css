@@ -63,6 +63,7 @@ button:hover {
 #temperature,
 #backlight,
 #wireplumber,
+#taskbar,
 #tray,
 #network,
 #custom-notification,
@@ -143,4 +144,13 @@ button:hover {
     border-radius: 15px;
     padding-left: 6px;
     padding-right: 6px;
+}
+
+
+
+#taskbar.empty {
+    background:transparent;
+    border:0;
+    padding:0;
+    margin:0;
 }

@@ -52,6 +52,7 @@ packer
 vault
 dbeaver
 powershell
+nwg-dock-hyprland
 
 # Make zshell the default Shell
 echo $(which zsh) | sudo tee -a /etc/shells
