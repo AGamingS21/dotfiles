@@ -10,9 +10,9 @@
     // Load Modules
     "include": ["~/.config/waybar/modules.jsonc"],
     "modules-left": [
-        "custom/appmenu",
-        "wlr/taskbar",
-        "custom/mail"
+        "custom/appmenu"
+        // "wlr/taskbar",
+        // "custom/mail"
         // "hyprland/window",
         //"custom/settings"
         // "sway/workspaces",
@@ -38,10 +38,10 @@
         // "clock",
         // "custom/power",
 
-        "tray",
+        // "tray",
         "custom/notification",
         //"bluetooth",
-        //"network",
+        "network",
         "pulseaudio",
         "battery",
         "custom/exit",

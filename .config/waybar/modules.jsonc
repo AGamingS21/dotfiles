@@ -53,12 +53,6 @@
     "separate-outputs": true
   },
 
-  // ML4W Welcome App
-  // "custom/ml4w-welcome": {
-  //   "on-click": "flatpak run com.ml4w.sidebar",
-  //   "format": " ",
-  //   "tooltip-format": "Open ML4W Sidebar App"
-  // },
 
   // Empty
   "custom/empty": {
@@ -113,41 +107,14 @@
     "tooltip-format": "Dotfiles Settings"
   },
 
-  // Keybindings
-  // "custom/keybindings": {
-  //   "format": "",
-  //   "on-click": "~/.config/hypr/scripts/keybindings.sh",
-  //   "tooltip": false
-  // },
-
-  // ChatGPT Launcher
-  // "custom/chatgpt": {
-  //   "format": " ",
-  //   "on-click": "~/.config/ml4w/settings/ai.sh",
-  //   "tooltip-format": "AI Support"
-  // },
 
   // Mail
   "custom/mail": {
     "format": "",
     //"on-click": "evolution",
-    "on-click": "brave-browser https://outlook.live.com/mail", 
+    "on-click": "brave https://outlook.live.com/mail", 
     "tooltip-format": "Mail"
   },
-
-  // Calculator
-  // "custom/calculator": {
-  //   "format": "",
-  //   "on-click": "qalculate-gtk",
-  //   "tooltip-format": "Open calculator"
-  // },
-
-  // Windows VM
-  // "custom/windowsvm": {
-  //   "format": "",
-  //   "on-click": "~/.config/ml4w/scripts/launchvm.sh",
-  //   "tooltip": false
-  // },
 
   // Rofi Application Launcher
   "custom/appmenu": {
@@ -158,14 +125,6 @@
     //"on-click-right": "~/.config/hypr/scripts/keybindings.sh",
     "tooltip-format": "Left: Open the application launcher\nRight: Show all keybindings"
   },
-
-  // Rofi Application Launcher
-  // "custom/appmenuicon": {
-  //   "format": "",
-  //   "on-click": "sleep 0.2;rofi -show drun -replace",
-  //   "on-click-right": "~/.config/hypr/scripts/keybindings.sh",
-  //   "tooltip-format": "Left: Open the application launcher\nRight: Show all keybindings"
-  // },
 
   // Power Menu
   "custom/exit": {
@@ -197,36 +156,6 @@
     "escape": true
   },
 
-  // Hyprshade
-  // "custom/hyprshade": {
-  //   "format": "",
-  //   "tooltip-format": "Toggle Screen Shader",
-  //   "on-click": "sleep 0.5; ~/.config/hypr/scripts/hyprshade.sh",
-  //   "on-click-right": "sleep 0.5; ~/.config/hypr/scripts/hyprshade.sh rofi"
-  // },
-
-  // Hypridle inhibitor
-  // "custom/hypridle": {
-  //   "format": "",
-  //   "return-type": "json",
-  //   "escape": true,
-  //   "exec-on-event": true,
-  //   "interval": 60,
-  //   "exec": "~/.config/hypr/scripts/hypridle.sh status",
-  //   "on-click": "~/.config/hypr/scripts/hypridle.sh toggle"
-  // },
-
-  // Keyboard State
-  // "keyboard-state": {
-  //   "numlock": true,
-  //   "capslock": true,
-  //   "format": "{name} {icon}",
-  //   "format-icons": {
-  //     "locked": "",
-  //     "unlocked": ""
-  //   }
-  // },
-
   // System tray
   "tray": {
     "icon-size": 21,
@@ -241,146 +170,43 @@
     "tooltip": false
   },
 
-  // System
-  // "custom/system": {
-  //   "format": "",
-  //   "tooltip": false
-  // },
-
-  // CPU
-  // "cpu": {
-  //   "format": "/ C {usage}% ",
-  //   "on-click": "~/.config/ml4w/settings/system-monitor.sh"
-  // },
-
-  // Memory
-  // "memory": {
-  //   "format": "/ M {}% ",
-  //   "on-click": "~/.config/ml4w/settings/system-monitor.sh"
-  // },
-
-  // Harddisc space used
-  // "disk": {
-  //   "interval": 30,
-  //   "format": "D {percentage_used}% ",
-  //   "path": "/",
-  //   "on-click": "~/.config/ml4w/settings/system-monitor.sh"
-  // },
-
-  // "hyprland/language": {
-  //   "format": "/ K {short}"
-  // },
-
-  // Group Hardware
-  // "group/hardware": {
-  //   "orientation": "inherit",
-  //   "drawer": {
-  //     "transition-duration": 300,
-  //     "children-class": "not-memory",
-  //     "transition-left-to-right": false
-  //   },
-  //   "modules": ["custom/system", "disk", "cpu", "memory", "hyprland/language"]
-  // },
-
-  // Group Tools
-  // "group/tools": {
-  //   "orientation": "inherit",
-  //   "drawer": {
-  //     "transition-duration": 300,
-  //     "children-class": "not-memory",
-  //     "transition-left-to-right": false
-  //   },
-  //   "modules": [
-  //     "custom/tools",
-  //     "custom/cliphist",
-  //     "custom/hypridle",
-  //     "custom/hyprshade"
-  //   ]
-  // },
-
-  //Group Links
-  "group/links": {
-    "orientation": "horizontal",
-    "modules": [
-      "custom/mail"
-      // "custom/chatgpt",
-      // "custom/empty"      
-    ]
-  },
-
-  // Group Settings
-  // "group/settings": {
-  //   "orientation": "inherit",
-  //   "drawer": {
-  //     "transition-duration": 300,
-  //     "children-class": "not-memory",
-  //     "transition-left-to-right": true
-  //   },
-  //   "modules": [
-  //     "custom/settings",
-  //     "custom/waybarthemes",
-  //     "custom/wallpaper"
-  //   ]
-  // },
-
   // Network
   "network": {
-    "format": "",
-    //"format-wifi": " {essid} ({signalStrength}%)",
-    "format-wifi": "",
-    "format-ethernet": "  {ifname}",
-    "format-disconnected": "Disconnected ⚠",
-    "tooltip-format": " {ifname} via {gwaddri}",
-    "tooltip-format-wifi": "  {ifname} @ {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\nUp: {bandwidthUpBits} Down: {bandwidthDownBits}",
-    "tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\n up: {bandwidthUpBits} down: {bandwidthDownBits}",
-    "tooltip-format-disconnected": "Disconnected",
-    "max-length": 10,
-    //"on-click": "kitty -e nmtui",
-    "on-click": "nm-connection-editor",
+    "format-wifi": "<span size='13000' foreground='#f5e0dc'>  </span>{essid}",
+    "format-ethernet": "<span size='13000' foreground='#f5e0dc'>󰤭  </span> Disconnected",
+    "format-linked": "{ifname} (No IP) ",
+    "format-disconnected": "<span size='13000' foreground='#f5e0dc'>  </span>Disconnected",
+    "tooltip-format-wifi": "Signal Strenght: {signalStrength}%",
+    "on-click": "kitty -e nmtui",
     "on-click-right": "~/.config/scripts/nm-applet.sh toggle"
   },
 
   // Battery
   "battery": {
     "states": {
-      "good": 95,
       "warning": 30,
       "critical": 15
     },
-    "format": "{icon}",
-    //"format": "{icon} {capacity}%",
-    "format-charging": "{icon}",
-    //"format-charging": "",
-    //"format-charging": "  {capacity}%",
-    "format-plugged": "",
-    //"format-plugged": "  {capacity}%",
-    "tooltip-format-plugged": " {capacity}%",
-    "format-alt": "{icon}  {time}",
-    // "format-good": "", // An empty format will hide the module
-    // "format-full": "",
-    "format-icons": [" ", " ", " ", " ", " "]
+    "format": "<span size='13000' foreground='#a6e3a1'>{icon} </span> {capacity}%",
+    "format-warning": "<span size='13000' foreground='#B1E3AD'>{icon} </span> {capacity}%",
+    "format-critical": "<span size='13000' foreground='#E38C8F'>{icon} </span> {capacity}%",
+    "format-charging": "<span size='13000' foreground='#B1E3AD'> </span>{capacity}%",
+    "format-plugged": "<span size='13000' foreground='#B1E3AD'> </span>{capacity}%",
+    "format-alt": "<span size='13000' foreground='#B1E3AD'>{icon} </span> {time}",
+    "format-full": "<span size='13000' foreground='#B1E3AD'> </span>{capacity}%",
+    "format-icons": ["", "", "", "", ""],
+    "tooltip-format": "{time}"
   },
 
   // Pulseaudio
   "pulseaudio": {
-    // "scroll-step": 1, // %, can be a float
-    "format": "{icon}",
-    "format-bluetooth": "{volume}% {icon} {format_source}",
-    "format-bluetooth-muted": " {icon} {format_source}",
-    "format-muted": " {format_source}",
-    "format-source": "{volume}% ",
-    "format-source-muted": "",
-    "format-icons": {
-      "headphone": " ",
-      "hands-free": " ",
-      "headset": " ",
-      "phone": " ",
-      "portable": " ",
-      "car": " ",
-      "default": ["", "", ""]
-    },
-    "on-click": "pavucontrol"
-  },
+      "format": "{icon}  {volume}%",
+      "format-muted": "",
+      "format-icons": {
+          "default": ["", "", " "]
+      },
+      "on-click": "pavucontrol"
+  }
 
   // Bluetooth
   // "bluetooth": {

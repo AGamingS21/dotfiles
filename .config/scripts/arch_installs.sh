@@ -1,10 +1,4 @@
 # Determine what below is pacman, yay or flatpak and add them to the columns below
-    # dotnet-sdk-9.0 \
-    # zsh \
-    # zsh-syntax-highlighting \
-    # zsh-autosuggestions \
-    # lsd \
-    # brave-browser \
     # flatpak \
     # spotify-client \
     # libreoffice \
@@ -13,36 +7,11 @@
     # vault \
     # terraform \
     # packer \
-    # vim \
-    # neovim \
-    # wireshark \
-    # vlc \
-    # lsd \
-    # docker-ce \
-    # docker-ce-cli \
-    # containerd.io \
-    # docker-buildx-plugin \
-    # docker-compose-plugin \
-    # nano \
-    # git \
-    # unzip \
-    # waybar \
     # psmisc \
     # powershell \
     # inotify-tools \
-    # rofi \
-    # pavucontrol \
-    # jq \
-    # network-manager \
-    # blueman \
-    # hyprpaper \
-    # kitty \
-    # cliphist \
     # pip3 \
     # pipx \
-    # nwg-look \
-    # papirus-icon-theme \
-    # evolution \
     # dbeaver-ce \
     # evince
 
@@ -52,20 +21,42 @@
 neofetch
 hyprland
 waybar
+network-manager
 network-manager-applet
 pauvcontrol
 brave
 jq
+pavucontrol
 wl-clipboard
+papirus-icon-theme
+otf-font-awesome
+cliphist
+kitty
+wofi
+nano
+neovim
+vim
+vlc
+zsh
+zsh-syntax-highlighting
+zsh-autosuggestions
+blueman
+docker
+wireshark-qt
+nwg-dock-hyprland
 
 # yay
 wlogout
 dotnet-sdk-bin
 visual-studio-code-bin
-oh-my-posh
 hyprshot
 hyprlock
 hypridle
+hyprpaper
+ttf-cascadia-code-nerd
+starship
+nwg-look
+catppuccin-gtk-theme-mocha
 
 
 # Make zshell the default Shell
@@ -86,7 +77,8 @@ flatpak install flathub com.bitwarden.desktop
 flatpak install flathub org.localsend.localsend_app
 # flatpak install flathub org.mozilla.Thunderbird
 
-
+# docker config
+sudo usermod -aG docker $USER
 
 # dotnet configs
 dotnet tool install sqlpackage

@@ -136,7 +136,7 @@
         - ~~style~~
         - ~~groupings~~
         - dynamic themes and ability to switch quickly
-        - tray spacing
+        - ~~tray spacing~~
         - ~~mail shortcut for evolution~~
     - Monitors
         - create script to switch based on power configureation
@@ -167,20 +167,31 @@
     - ~~add font across all systems~~
 - ~~wlogout style~~
 
-- fix swaync style
+- ~~fix swaync style~~
+- ~~fix icon space in waybar config~~
+- ~~nm-applet icons~~
+- ~~add percentage for power~~
+
+- overhaul waybar style and spacing
 
 - create list of software and where it was installed from: pacman vs yay vs flatpak
 
-- copy and paste only working with ctrl+shift+v can it be ctrl+v?
+- try and get cattpucine mocha working with mauve as main
 
+- ~~copy and paste only working with ctrl+shift+v can it be ctrl+v?~~
+    - ~~fixed by installing cliphist~~
 - ~~configure vsconfig~~
 - ~~.zprofile export vars not adding to path~~
     - ~~added to .zsh for now~~S
 
 - figure out what theming I want across all apps
 
+- make sure bluetooth works
+
+- theme qt apps
+
 - move to: 
-    - hgw-dock-hyprland
+    - nwg-dock-hyprland
     - ~~hyprlock~~
     - ~~hypridle~~
     - ~~hyprshot~~
@@ -190,4 +201,4 @@
 
 - look into 
     - ags one day https://github.com/Aylur/ags
-    - wofi vs rofi
+    - ~~wofi vs rofi~~

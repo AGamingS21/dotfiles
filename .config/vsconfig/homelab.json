@@ -24,7 +24,7 @@
         "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
         "extensions.ignoreRecommendations": true,
         "explorer.confirmDelete": true,
-        "editor.fontFamily": "monospace, FontAwesome, Roboto, Helvetica, Arial, sans-serif",
+        "editor.fontFamily": "'CaskaydiaCove Nerd Font Mono',monospace, FontAwesome, Roboto, Helvetica, Arial, sans-serif",
         "workbench.preferredHighContrastLightColorTheme": "Visual Studio Dark",
         "workbench.preferredLightColorTheme": "Visual Studio Dark",
         "window.dialogStyle": "custom",
