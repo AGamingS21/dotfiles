@@ -1,23 +1,5 @@
-# Determine what below is pacman, yay or flatpak and add them to the columns below
-    # flatpak \
-    # spotify-client \
-    # libreoffice \
-    # steam-installer \
-    # ansible \
-    # vault \
-    # terraform \
-    # packer \
-    # psmisc \
-    # powershell \
-    # inotify-tools \
-    # pip3 \
-    # pipx \
-    # dbeaver-ce \
-    # evince
-
-
-
 # pacman
+yay
 neofetch
 hyprland
 waybar
@@ -46,6 +28,12 @@ wireshark-qt
 nwg-dock-hyprland
 gnome-keyring
 seahorse
+flatpak
+libreoffice
+spotify-launcher
+steam
+ansible
+cups
 
 # yay
 wlogout
@@ -59,7 +47,11 @@ ttf-cascadia-code-nerd
 starship
 nwg-look
 catppuccin-gtk-theme-mocha
-
+terraform
+packer
+vault
+dbeaver
+powershell
 
 # Make zshell the default Shell
 echo $(which zsh) | sudo tee -a /etc/shells
@@ -74,7 +66,6 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 flatpak install com.discordapp.Discord 
 flatpak install flathub com.bitwarden.desktop
 flatpak install flathub org.localsend.localsend_app
-# flatpak install flathub org.mozilla.Thunderbird
 
 # docker config
 sudo usermod -aG docker $USER
@@ -90,7 +81,12 @@ vsconfig configure
 
 
 # Python packages
-pipx install pywall
+#pipx install pywall
 
+
+# services to enable:
+sudo systemctl enable gnome.service
+sudo systemctl enable bluetooth.service
+sudo systemctl enable --now cups
 
 echo "Reboot PC Now"

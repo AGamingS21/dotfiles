@@ -171,7 +171,7 @@
 
 - ~~overhaul waybar style and spacing~~
 
-- create list of software and where it was installed from: pacman vs yay vs flatpak
+- ~~create list of software and where it was installed from: pacman vs yay vs flatpak~~
 
 - ~~try and get cattpucine mocha working with mauve as main~~
 
@@ -184,7 +184,12 @@
 - ~~figure out what theming I want across all apps~~
     - ~~catppucine~~
 
-- make sure bluetooth works
+- make sure works
+    - bluetooth
+    - printing
+    - camera
+    - microphone
+    - powershell
 
 - theme qt apps
 
