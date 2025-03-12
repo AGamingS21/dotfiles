@@ -190,8 +190,16 @@
     - camera
     - microphone
     - powershell
+    - ~~docker~~
+    - ansible, vault, terraform, packer
 
 - theme qt apps
+
+- nvim
+    - config
+    - dotnet
+    - powershell
+    - vim-dadbod
 
 - move to: 
     - ~~nwg-dock-hyprland~~

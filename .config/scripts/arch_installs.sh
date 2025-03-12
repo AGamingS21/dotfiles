@@ -24,6 +24,7 @@ zsh-syntax-highlighting
 zsh-autosuggestions
 blueman
 docker
+docker-compose
 wireshark-qt
 nwg-dock-hyprland
 gnome-keyring
@@ -89,5 +90,7 @@ vsconfig configure
 sudo systemctl enable gnome.service
 sudo systemctl enable bluetooth.service
 sudo systemctl enable --now cups
+sudo systemctl enable docker.service
+
 
 echo "Reboot PC Now"
