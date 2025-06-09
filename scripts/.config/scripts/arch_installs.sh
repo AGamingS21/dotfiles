@@ -1,5 +1,12 @@
+
+
+## Move dotfiles first then download the rest
+sudo pacman -S stow
+stow gtk-3.0 hypr kitty nvim scripts starship swaync vsconfig wallpapers waybar wlogout wofi zsh
+
+
+
 # pacman
-stow
 yay
 neofetch
 hyprland
