@@ -1,4 +1,5 @@
 # pacman
+stow
 yay
 neofetch
 hyprland
