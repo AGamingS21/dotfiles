@@ -14,6 +14,10 @@ export DOTNET_CLI_TELEMETRY_OPTOUT=1
 bindkey -e
 #bindkey '^B' autosuggest-toggle
 
+bindkey "^[[H" beginning-of-line
+bindkey "^[[F" end-of-line
+bindkey "^[[3~" delete-char
+
 
 # Keep 1000 lines of history within the shell and save it to ~/.zsh_history:
 HISTSIZE=1000

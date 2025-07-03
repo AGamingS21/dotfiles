@@ -43,6 +43,8 @@ spotify-launcher
 steam
 ansible
 cups
+npm
+ghostty
 
 # yay
 wlogout
