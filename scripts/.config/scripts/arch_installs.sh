@@ -64,6 +64,8 @@ vault
 dbeaver
 powershell
 nwg-dock-hyprland
+python-jmespath
+
 
 # Make zshell the default Shell
 echo $(which zsh) | sudo tee -a /etc/shells

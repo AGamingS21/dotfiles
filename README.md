@@ -213,3 +213,5 @@
 - look into 
     - ags one day https://github.com/Aylur/ags
     - ~~wofi vs rofi~~
+- switch from kitty to another terminal emulator
+- encrypt drive
