@@ -124,7 +124,7 @@
             - ~~buttons per row was 5 and not 3~~
         - ~~log out function crashes sddm~~
             - ~~had to rename config file to layout~~
-    - closinng laptop lid pc won't turn back on.
+    - ~~closinng laptop lid pc won't turn back on.~~
     - swaync 
         - ~~client style~~
         - ~~confirm it is working~~
@@ -141,8 +141,6 @@
     - Monitors
         - create script to switch based on power configureation
         
-    - add a dock
-        - ngw-dock-hyprland. Will need to do this when on arch
 - zsh
     - lsd config
 - ~~rofi~~
@@ -215,3 +213,5 @@
     - ~~wofi vs rofi~~
 - switch from kitty to another terminal emulator
 - encrypt drive
+- automate or create symlink for logind to ucomment sections for closing laptop lid. Also test if that resolved issue?
+- ideo: small tui or rofi terminatl to select which monitors to disable/enable.
