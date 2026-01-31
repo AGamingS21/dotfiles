@@ -38,7 +38,7 @@
     - ~~git extension~~
     - ~~Better theme~~
         - ~~oh my posh~~
-    - how to get auto suggestion working in vscode
+    - ~~how to get auto suggestion working in vscode~~
 - firewall:
     - ufw
 
@@ -109,9 +109,9 @@
     - ~~cliphist~~
 
 ## Roadmap
-- brave-browser 
-    - get bookmarks file into repo
-    - automate settings sync?
+- ~~brave-browser ~~
+    - ~~get bookmarks file into repo~~
+    - ~~automate settings sync?~~
 - network manager   
     - ~~turned off managing network interface from /etc/network/interfaces. ~~
     - ~~how to make system tray menu show when left clicking on network icon.~~
@@ -125,24 +125,21 @@
         - ~~log out function crashes sddm~~
             - ~~had to rename config file to layout~~
     - ~~closinng laptop lid pc won't turn back on.~~
-    - swaync 
+    - ~~swaync~~
         - ~~client style~~
         - ~~confirm it is working~~
             -  ~~would need to script this: discord notificaitons work?~~
-    - update manager
-        - create or find one for debian
-        - add to waybar
-    - waybar 
+    - ~~waybar~~
         - ~~style~~
         - ~~groupings~~
-        - dynamic themes and ability to switch quickly
+        - ~~dynamic themes and ability to switch quickly~~
         - ~~tray spacing~~
         - ~~mail shortcut for evolution~~
-    - Monitors
-        - create script to switch based on power configureation
+    - ~~Monitors~~
+        - ~~create script to switch based on power configureation~~
         
-- zsh
-    - lsd config
+- ~~zsh~~
+    - ~~lsd config~~
 - ~~rofi~~
     - ~~launch flatpaks~~
         - ~~had to add items to the XDG_DATA_DIRS var.~~
@@ -185,19 +182,11 @@
 - make sure works
     - bluetooth
     - printing
-    - camera
-    - microphone
-    - powershell
+    - ~~camera~~
+    - ~~microphone~~
     - ~~docker~~
-    - ansible, vault, terraform, packer
+    - ~~ansible, vault, terraform, packer~~
 
-- theme qt apps
-
-- nvim
-    - config
-    - dotnet
-    - powershell
-    - vim-dadbod
 
 - move to: 
     - ~~nwg-dock-hyprland~~
@@ -209,9 +198,9 @@
     - ~~how to theme based on dotfiles using ngw-look~~
 
 - look into 
-    - ags one day https://github.com/Aylur/ags
+    - ags one day https://github.com/Aylur/ags or make my own bar?
     - ~~wofi vs rofi~~
-- switch from kitty to another terminal emulator
+- switch from kitty to another terminal emulator maybe ghosty?
 - encrypt drive
-- automate or create symlink for logind to ucomment sections for closing laptop lid. Also test if that resolved issue?
-- ideo: small tui or rofi terminatl to select which monitors to disable/enable.
+- idea: small tui or rofi terminatl to select which monitors to disable/enable.
+- create better design and figure out how to make them dynamic

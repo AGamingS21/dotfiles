@@ -38,7 +38,7 @@
         // "clock",
         // "custom/power",
 
-        // "tray",
+//        "tray",
         "custom/notification",
         //"bluetooth",
         "network",
@@ -49,3 +49,4 @@
      ]
      
 }
+
