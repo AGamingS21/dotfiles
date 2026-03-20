@@ -5,7 +5,7 @@ eval "$(starship init zsh)"
 # setopt histignorealldups sharehistory
 
 
-export DOTNET_ROOT=/usr/share/dotnet
+#export DOTNET_ROOT=/usr/share/dotnet
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
 
 
