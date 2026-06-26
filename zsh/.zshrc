@@ -4,8 +4,8 @@ eval "$(starship init zsh)"
 
 # setopt histignorealldups sharehistory
 
-
-#export DOTNET_ROOT=/usr/share/dotnet
+export DOTNET_ROOT=$HOME/.dotnet
+export PATH=$HOME/.dotnet:$PATH
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
 
 
@@ -52,3 +52,5 @@ export XDG_CONFIG_HOME="/home/$(whoami)/.config"
 # export PATH="${PATH}:/var/lib/flatpak/exports/share"
 # export XDG_DATA_DIRS="${XDG_DATA_DIRS}:/var/lib/flatpak/exports/share/:/home/$(whoami)/.local/share/flatpak/exports/share"
 
+
+if [ -e /home/andrew/.nix-profile/etc/profile.d/nix.sh ]; then . /home/andrew/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
