@@ -128,7 +128,7 @@
 
   // Power Menu
   "custom/exit": {
-    "format": "",
+    "format": "⏻",
     "on-click": "~/.config/scripts/wlogout.sh",
     "on-click-right": "swaylock",
     "tooltip-format": "Left: Power menu\nRight: Lock screen"
@@ -143,7 +143,7 @@
       "none": "",
       "dnd-notification": "<span foreground='red'><sup></sup></span>",
       "dnd-none": "",
-      "inhibited-notification": "<span foreground='red'><sup></sup></span>",
+      "inhibited-notification": "<span foreground='red'><sup></sup></span>",
       "inhibited-none": "",
       "dnd-inhibited-notification": "<span foreground='red'><sup></sup></span>",
       "dnd-inhibited-none": ""
@@ -187,7 +187,7 @@
       "warning": 30,
       "critical": 15
     },
-    "format": "<span size='13000' foreground='#a6e3a1'>{icon} </span> {capacity}%",
+    "format": "<span size='13000' foreground='#a6e3a1'>{icon}</span> {capacity}%",
     "format-warning": "<span size='13000' foreground='#B1E3AD'>{icon} </span> {capacity}%",
     "format-critical": "<span size='13000' foreground='#E38C8F'>{icon} </span> {capacity}%",
     "format-charging": "<span size='13000' foreground='#B1E3AD'> </span>{capacity}%",
@@ -200,7 +200,7 @@
 
   // Pulseaudio
   "pulseaudio": {
-      "format": "{icon}  {volume}%",
+      "format": "{icon} {volume}%",
       "format-muted": "",
       "format-icons": {
           "default": ["", "", " "]

@@ -204,3 +204,17 @@
 - encrypt drive
 - idea: small tui or rofi terminatl to select which monitors to disable/enable.
 - create better design and figure out how to make them dynamic
+
+
+- What to rice
+    - waybar how to make thinner?
+    - wallpaper
+    - hyprlock
+    - swaync find new design
+    - wofi
+    - kitty/ghosty
+    - zsh
+    - neovim
+    - gtk apps
+    - parameterize/how to update themes?
+    - Find a wallpaper that has the red back and white I am looking for?

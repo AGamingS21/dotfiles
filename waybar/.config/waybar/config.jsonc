@@ -2,9 +2,9 @@
 {
     // "layer": "top", // Waybar at top layer
     // "position": "bottom", // Waybar position (top|bottom|left|right)
-    "height": 30,
+    "height": 10,
     // "width": 1280, // Waybar width
-    "spacing": 4, // Gaps between modules (4px)
+    "spacing": 8, // Gaps between modules (4px)
     // Choose the order of the modules
 
     // Load Modules
@@ -38,15 +38,34 @@
         // "clock",
         // "custom/power",
 
+        
+        // "group/hardware",
+        "group/right"
+        
+     ],
+
+    "group/hardware": {
+        "orientation": "horizontal",
+        "drawer": {
+            "transition-duration": 100,
+            "transition-left-to-right": false
+        },
+        "modules": ["custom/tray-icon","tray"]
+    },
+    "group/right": {
+        "orientation": "horizontal",
+        
+        "modules": [
         "tray",
         "custom/notification",
         //"bluetooth",
-        "network",
+        //"network",
         "pulseaudio",
         "battery",
-        "custom/exit",
-        "clock"
-     ]
-     
+        "clock",
+        "custom/exit"]
+    }
 }
+     
+
 

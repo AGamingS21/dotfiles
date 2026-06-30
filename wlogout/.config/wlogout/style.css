@@ -1,78 +1,77 @@
-/*
-          _                         _
-__      _| | ___   __ _  ___  _   _| |_
-\ \ /\ / / |/ _ \ / _` |/ _ \| | | | __|
- \ V  V /| | (_) | (_| | (_) | |_| | |_
-  \_/\_/ |_|\___/ \__, |\___/ \__,_|\__|
-                  |___/
+@define-color base        rgba(12, 12, 12, 0.9);
+@define-color surface     #1E1E1E;
+@define-color text        rgba(248, 249, 250, 1);
+@define-color accent      rgba(20, 45, 90, 0.85);
+@define-color border      #000000;
 
-by Stephan Raabe (2023)
------------------------------------------------------
-*/
 * {
-	background-image: none;
-	box-shadow: none;
-    font-family: 'MesloLGLNerdFontMono-Regular';
+    background-image: none;
+    box-shadow: none;
+    font-family: "CaskaydiaCove Nerd Font";
 }
 
 window {
-	background-color: rgba(12, 12, 12, 0.9);
+    background-color: @base;
 }
 
 button {
-    border-radius: 1;
-    border-color: black;
-	text-decoration-color: #FFFFFF;
-    color: #FFFFFF;
-	background-color: #1E1E1E;
-	border-style: solid;
-	border-width: 1px;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 25%;
+    border-radius: 1px;
+    border-color: @border;
+    text-decoration-color: @text;
+    color: @text;
+    background-color: @surface;
+    border-style: solid;
+    border-width: 1px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
 }
 
 button span {
-    font-size: 1.2em; /* Increase the font size */
+    font-size: 1.2em;
 }
 
-button:focus, button:active, button:hover {
-	background-color: #3700B3;
-	outline-style: none;
+button:focus,
+button:active,
+button:hover {
+    background-color: @accent;
+    outline-style: none;
 }
+
+/* Individual buttons */
 
 #lock {
     background-image: image(url("icons/lock.png"));
     margin: 10px;
-	border-radius: 20px;
+    border-radius: 20px;
 }
 
 #logout {
     background-image: image(url("icons/logout.png"));
     margin: 10px;
-	border-radius: 20px;
+    border-radius: 20px;
 }
 
 #suspend {
     background-image: image(url("icons/suspend.png"));
     margin: 10px;
-	border-radius: 20px;
+    border-radius: 20px;
 }
 
 #hibernate {
     background-image: image(url("icons/hibernate.png"));
     margin: 10px;
-	border-radius: 20px;
+    border-radius: 20px;
 }
 
 #shutdown {
     background-image: image(url("icons/shutdown.png"));
     margin: 10px;
-	border-radius: 20px;
+    border-radius: 20px;
 }
 
 #reboot {
     background-image: image(url("icons/reboot.png"));
     margin: 10px;
-	border-radius: 20px;
+    border-radius: 20px;
 }
