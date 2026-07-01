@@ -57,6 +57,8 @@ window {
     color: @teal;
 }
 
+
+
 #input * {
   outline: 4px solid @black!important;
 }

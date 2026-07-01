@@ -11,7 +11,6 @@
     font-size: 16px;
     min-height: 0;
     font-weight: bold;
-    
 }
 
 window#waybar {
@@ -31,6 +30,10 @@ window#waybar {
   background: @highlight;
   color: black;
   font-weight: 700;
+}
+
+#custom-appmenu{
+  padding-left: 10px;
 }
 
 #submap,
@@ -67,6 +70,8 @@ tooltip label {
     margin: 5px 0px;
 }
 
+
+
 #modules-center,
 #tray,
 #pulseaudio,
@@ -86,3 +91,4 @@ tooltip label {
   border-radius: 999px;   /* this makes it fully oval */
   border: 1px solid rgba(255, 255, 255, 0.25);   
 }
+

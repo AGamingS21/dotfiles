@@ -207,14 +207,15 @@
 
 
 - What to rice
-    - waybar how to make thinner?
+    - waybar how to change height?
     - wallpaper
     - hyprlock
-    - swaync find new design
-    - wofi
-    - kitty/ghosty
+    - swaync find new design?
+    - wofi maybe switch to a new one like fuzzel or rofi?
     - zsh
+    - kitty/ghosty
     - neovim
     - gtk apps
     - parameterize/how to update themes?
     - Find a wallpaper that has the red back and white I am looking for?
+    - change to dot- and try and fit into one config?
