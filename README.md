@@ -210,12 +210,13 @@
     - waybar how to change height?
     - wallpaper
     - hyprlock
-    - swaync find new design?
-    - wofi maybe switch to a new one like fuzzel or rofi?
+    - swaync find a better design?
+    - wofi why are all items not aligned?
     - zsh
     - kitty/ghosty
     - neovim
     - gtk apps
     - parameterize/how to update themes?
     - Find a wallpaper that has the red back and white I am looking for?
+    - switch to quickshell instead of waybar?
     - change to dot- and try and fit into one config?

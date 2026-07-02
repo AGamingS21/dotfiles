@@ -1,56 +1,54 @@
-@define-color base        rgba(24, 24, 27, 1);
-@define-color surface     rgba(24, 24, 27, 1);
-@define-color mantle      rgba(24, 24, 27, 1);
+@define-color bg #08131D;
+@define-color bg-alt #0D1B28;
+@define-color surface #10222F;
+@define-color surface-light #163041;
+@define-color surface-hover #21465E;
 
-@define-color overlay     #313244;
-@define-color overlay2    #45475A;
-@define-color overlay3    #585B70;
+@define-color text #D7F3FF;
+@define-color text-muted #8FB4C7;
 
-@define-color muted       #7F849C;
-@define-color muted2      #6c7086;
-@define-color subtext     #a6adc8;
-@define-color text        rgba(248, 249, 250, 1);
+@define-color cyan #19C9F3;
+@define-color cyan-light #42D6FF;
+@define-color aqua #1CE8D9;
 
-@define-color accent      #75F1FA;
-@define-color blue        #89B4fa;
-@define-color yellow      #F9E2AF;
+@define-color blue #3CCEFF;
+@define-color indigo #325D89;
 
-@define-color cyan        #74c7ec;
+@define-color success #2EE6A6;
+@define-color warning #FFD86E;
+@define-color error #FF6F7D;
 
-@define-color red         #F38BA8;
-@define-color red_hover   #EBA0AC;
-
-@define-color shadow      rgba(0, 0, 0, 0.8);
-
+@define-color border rgba(66,214,255,0.18);
+@define-color shadow rgba(0,0,0,.65);
 
 * {
     all: unset;
-    font-size: 14px;
     font-family: "CaskaydiaCove Nerd Font";
-    transition: 200ms;
+    font-size: 14px;
+    transition: 180ms;
+    color: @text;
   }
-  
   trough highlight {
-    background: @text;
-  }
-  
-  scale trough {
-    margin: 0rem 1rem;
-    background-color: @overlay;
+    background: @cyan;
+}
+
+scale trough {
+    background: @surface-light;
     min-height: 8px;
-    min-width: 70px;
-  }
-  
-  slider {
-    background-color: @blue;
-  }
+    min-width: 80px;
+    margin: 0 1rem;
+    border-radius: 999px;
+}
+
+slider {
+    background: @cyan-light;
+}
   
   .floating-notifications.background .notification-row .notification-background {
-    box-shadow: 0 0 8px 0 @shadow, inset 0 0 0 1px @overlay;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.8), inset 0 0 0 1px @surface;
     border-radius: 12.6px;
     margin: 18px;
-    background-color: @surface;
-    
+    background-color: @bg;
     color: @text;
     padding: 0;
   }
@@ -61,7 +59,7 @@
   }
   
   .floating-notifications.background .notification-row .notification-background .notification.critical {
-    box-shadow: inset 0 0 7px 0 @red;
+    box-shadow: inset 0 0 7px 0 @error;
   }
   
   .floating-notifications.background .notification-row .notification-background .notification .notification-content {
@@ -73,7 +71,7 @@
   }
   
   .floating-notifications.background .notification-row .notification-background .notification .notification-content .time {
-    color: @subtext;
+    color: #a6adc8;
   }
   
   .floating-notifications.background .notification-row .notification-background .notification .notification-content .body {
@@ -87,19 +85,19 @@
   .floating-notifications.background .notification-row .notification-background .notification > *:last-child > * .notification-action {
     border-radius: 7px;
     color: @text;
-    background-color: @overlay;
-    box-shadow: inset 0 0 0 1px @overlay2;
+    background-color: @surface;
+    box-shadow: inset 0 0 0 1px @surface-light;
     margin: 7px;
   }
   
   .floating-notifications.background .notification-row .notification-background .notification > *:last-child > * .notification-action:hover {
-    box-shadow: inset 0 0 0 1px @overlay2;
-    background-color: @overlay;
+    box-shadow: inset 0 0 0 1px @surface-light;
+    background-color: @surface;
     color: @text;
   }
   
   .floating-notifications.background .notification-row .notification-background .notification > *:last-child > * .notification-action:active {
-    box-shadow: inset 0 0 0 1px @overlay2;
+    box-shadow: inset 0 0 0 1px @surface-light;
     background-color: @cyan;
     color: @text;
   }
@@ -108,25 +106,25 @@
     margin: 7px;
     padding: 2px;
     border-radius: 6.3px;
-    color: @surface;
-    background-color: @red;
+    color: @bg;
+    background-color: @error;
   }
   
   .floating-notifications.background .notification-row .notification-background .close-button:hover {
-    background-color: @red_hover;
-    color: @surface;
+    background-color: @error;
+    color: @bg;
   }
   
   .floating-notifications.background .notification-row .notification-background .close-button:active {
-    background-color: @red;
-    color: @surface;
+    background-color: @error;
+    color: @bg;
   }
   
   .control-center {
-    box-shadow: 0 0 8px 0 @shadow, inset 0 0 0 1px @overlay;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.8), inset 0 0 0 1px @surface;
     border-radius: 12.6px;
     margin: 18px;
-    background-color: @surface;
+    background-color: @bg;
     color: @text;
     padding: 14px;
   }
@@ -139,28 +137,28 @@
   .control-center .widget-title button {
     border-radius: 7px;
     color: @text;
-    background-color: @overlay;
-    box-shadow: inset 0 0 0 1px @overlay2;
+    background-color: @surface;
+    box-shadow: inset 0 0 0 1px @surface-light;
     padding: 8px;
   }
   
   .control-center .widget-title button:hover {
-    box-shadow: inset 0 0 0 1px @overlay2;
-    background-color: #585b70;
+    box-shadow: inset 0 0 0 1px @surface-light;
+    background-color: @surface-hover;
     color: @text;
   }
   
   .control-center .widget-title button:active {
-    box-shadow: inset 0 0 0 1px @overlay2;
+    box-shadow: inset 0 0 0 1px @surface-light;
     background-color: @cyan;
-    color: @surface;
+    color: @bg;
   }
   
   .control-center .notification-row .notification-background {
     border-radius: 7px;
     color: @text;
-    background-color: @overlay;
-    box-shadow: inset 0 0 0 1px @overlay2;
+    background-color: @surface;
+    box-shadow: inset 0 0 0 1px @surface-light;
     margin-top: 14px;
   }
   
@@ -170,7 +168,7 @@
   }
   
   .control-center .notification-row .notification-background .notification.critical {
-    box-shadow: inset 0 0 7px 0 @red;
+    box-shadow: inset 0 0 7px 0 @error;
   }
   
   .control-center .notification-row .notification-background .notification .notification-content {
@@ -182,7 +180,7 @@
   }
   
   .control-center .notification-row .notification-background .notification .notification-content .time {
-    color: @subtext;
+    color: #a6adc8;
   }
   
   .control-center .notification-row .notification-background .notification .notification-content .body {
@@ -196,19 +194,19 @@
   .control-center .notification-row .notification-background .notification > *:last-child > * .notification-action {
     border-radius: 7px;
     color: @text;
-    background-color: @mantle;
-    box-shadow: inset 0 0 0 1px @overlay2;
+    background-color: @bg-alt;
+    box-shadow: inset 0 0 0 1px @surface-light;
     margin: 7px;
   }
   
   .control-center .notification-row .notification-background .notification > *:last-child > * .notification-action:hover {
-    box-shadow: inset 0 0 0 1px @overlay2;
-    background-color: @overlay;
+    box-shadow: inset 0 0 0 1px @surface-light;
+    background-color: @surface;
     color: @text;
   }
   
   .control-center .notification-row .notification-background .notification > *:last-child > * .notification-action:active {
-    box-shadow: inset 0 0 0 1px @overlay2;
+    box-shadow: inset 0 0 0 1px @surface-light;
     background-color: @cyan;
     color: @text;
   }
@@ -217,8 +215,8 @@
     margin: 7px;
     padding: 2px;
     border-radius: 6.3px;
-    color: @surface;
-    background-color: @red_hover;
+    color: @bg;
+    background-color: @error;
   }
   
   .close-button {
@@ -226,29 +224,29 @@
   }
   
   .control-center .notification-row .notification-background .close-button:hover {
-    background-color: @red;
-    color: @surface;
+    background-color: @error;
+    color: @bg;
   }
   
   .control-center .notification-row .notification-background .close-button:active {
-    background-color: @red;
-    color: @surface;
+    background-color: @error;
+    color: @bg;
   }
   
   .control-center .notification-row .notification-background:hover {
-    box-shadow: inset 0 0 0 1px @overlay2;
-    background-color: @muted;
+    box-shadow: inset 0 0 0 1px @surface-light;
+    background-color: @surface-hover;
     color: @text;
   }
   
   .control-center .notification-row .notification-background:active {
-    box-shadow: inset 0 0 0 1px @overlay2;
+    box-shadow: inset 0 0 0 1px @surface-light;
     background-color: @cyan;
     color: @text;
   }
   
   .notification.critical progress {
-    background-color: @red;
+    background-color: @error;
   }
   
   .notification.low progress,
@@ -259,17 +257,17 @@
   .control-center-dnd {
     margin-top: 5px;
     border-radius: 8px;
-    background: @overlay;
-    border: 1px solid @overlay2;
+    background: @surface;
+    border: 1px solid @surface-light;
     box-shadow: none;
   }
   
   .control-center-dnd:checked {
-    background: @overlay;
+    background: @surface;
   }
   
   .control-center-dnd slider {
-    background: @overlay2;
+    background: @surface-light;
     border-radius: 8px;
   }
   
@@ -281,23 +279,23 @@
   .widget-dnd > switch {
     font-size: initial;
     border-radius: 8px;
-    background: @overlay;
-    border: 1px solid @overlay2;
+    background: @surface;
+    border: 1px solid @surface-light;
     box-shadow: none;
   }
   
   .widget-dnd > switch:checked {
-    background: @overlay;
+    background: @surface;
   }
   
   .widget-dnd > switch slider {
-    background: @overlay2;
+    background: @surface-light;
     border-radius: 8px;
-    border: 1px solid @muted2;
+    border: 1px solid @surface-hover;
   }
   
   .widget-mpris .widget-mpris-player {
-    background: @overlay;
+    background: @surface;
     padding: 7px;
   }
   
@@ -315,13 +313,13 @@
   }
   
   .widget-menubar > box > .menu-button-bar > :last-child {
-    color: @red;
+    color: @error;
   }
   
   .power-buttons button:hover,
   .powermode-buttons button:hover,
   .screenshot-buttons button:hover {
-    background: @overlay;
+    background: @surface;
   }
   
   .control-center .widget-label > label {
@@ -351,12 +349,12 @@
   }
   
   .widget-backlight trough highlight {
-    background: @yellow;
+    background: @warning;
   }
   
   .widget-backlight label {
     font-size: 1.5rem;
-    color: @yellow;
+    color: @warning;
   }
   
   .widget-backlight .KB {
