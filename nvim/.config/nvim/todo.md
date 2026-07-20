@@ -1,0 +1,20 @@
+# TODO
+- neo-tree
+  - ~~how to toggle tree without moving focus~~
+  - ~~how to return focus to open file without closing tree~~
+  - how to move from neotree back to buffer using esc
+- nvim-dap
+  - ~~how to close neo-tree and start debugging~~
+  - ~~how to stop debugging and open back neotree~~
+  - debugging C# stops working after pressing F10
+  - how to run other commands before debugging?
+- buffer tabs
+- ~~create an empty buffer~~
+- multiline
+- git integration
+- terminal integration similar to vscode? maybe use tmux?
+- how to use C# unit testing? is there a window?
+- test ansible hcl, yaml projects 
+- nix flakes
+- code folding
+- indent lines like from vscode

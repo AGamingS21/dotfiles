@@ -6,3 +6,7 @@ vim.cmd("set clipboard=unnamedplus")
 vim.g.mapleader = " "
 vim.opt.swapfile = false
 vim.wo.number = true
+
+vim.o.winborder = 'single'
+
+vim.keymap.set("n", "<C-t>", "<Cmd>enew<CR>", {})
