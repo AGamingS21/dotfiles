@@ -6,15 +6,21 @@
 - nvim-dap
   - ~~how to close neo-tree and start debugging~~
   - ~~how to stop debugging and open back neotree~~
-  - debugging C# stops working after pressing F10
-  - how to run other commands before debugging?
+  - ~~debugging C# stops working after pressing F10~~
 - buffer tabs
+  - ~~How to get tabs to work similar to vscode where :q also closes the buffer. How to keep bufferes open?~~
+  - ~~what is that glitch where neotree stays open like that?~~
+  - ~~How to get it so when I open a new buffer after closing all of my buffers that buffer will close after opening a new buffer?~~
 - ~~create an empty buffer~~
-- multiline
+- ~~multiline~~
 - git integration
-- terminal integration similar to vscode? maybe use tmux?
-- how to use C# unit testing? is there a window?
-- test ansible hcl, yaml projects 
-- nix flakes
+- terminal
+  - how to setup windows to have file tree go down to bottom and terminal inline with editor window
+  - keymaps for switching between editor and terminal, etc.
+  - make escape key to leave terminal and back to edio
 - code folding
-- indent lines like from vscode
+- nix flakes
+- how to use C# unit testing? is there a window?
+- how to run other commands before debugging?
+- test ansible hcl, yaml projects 
+- ~~indent lines like from vscode~~

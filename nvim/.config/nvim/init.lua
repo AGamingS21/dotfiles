@@ -16,6 +16,16 @@ vim.opt.rtp:prepend(lazypath)
 require("vim-options")
 require("lazy").setup("plugins")
 
-vim.cmd("Neotree show")
+-- vim.cmd("Neotree show")
 
-
+-- Open alpha dashboard on startup
+vim.api.nvim_create_autocmd("VimEnter", {
+  callback = function()
+    vim.schedule(function()
+      require("neo-tree.command").execute({
+        source = "filesystem",
+        action = "show",
+      })
+    end)
+  end,
+})

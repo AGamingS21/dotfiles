@@ -20,6 +20,23 @@ return {
 					end,
 				},
 			},
+			filesystem = {
+				window = {
+					mappings = {
+						["<Esc>"] = function(state)
+							vim.cmd("wincmd l")
+						end,
+					},
+				},
+				filtered_items = {
+					visible = true,
+					hide_dotfiles = false,
+					hide_gitignored = true,
+				},
+				follow_current_file = {
+					enabled = true,
+				},
+			},
 		})
 		vim.keymap.set("n", "<C-n>", ":Neotree filesystem reveal left<CR>", {})
 		--		vim.keymap.set("n", "<C-b>", "<cmd>Neotree toggle<CR>", {})
